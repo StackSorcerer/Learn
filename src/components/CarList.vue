@@ -1,5 +1,5 @@
 <script setup>
-import ButtonDelete from '@/components/ButtonDelete.vue'
+import Caritem from '@/components/Caritem.vue';
 
 const carsArray = [
   {
@@ -11,14 +11,12 @@ const carsArray = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFN0lN7T1WyAETO84V2umxeofkkkl6684bmI01rC_I&s"
   }
 ]
-console.log(carsArray)
-
-
-
 </script>
 
 <template>
-<ButtonDelete/>
+<section class="cars" v-for="car in carsArray" :key="car">
+<Caritem :car="car" />
+</section>
 </template>
 
 <style scoped></style>
