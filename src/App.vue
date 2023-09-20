@@ -1,17 +1,16 @@
 <script setup>
 import ButtonDelete from '@/components/ButtonDelete.vue'
+import Footer from '@/components/Footer.vue'
+import Background from '@/components/Background.vue'
+import CarTable from '@/components/CarTable.vue'
+import Header from '@/components/Header.vue'
+import NavBar from '@/components/layouts/NavBar.vue'
+import CarList from '@/components/Carlist.vue'
+import CarAddModal from '@/components/CarAddModal.vue'
 
-const carsArray = [
-  {
-    brand: "BMW",
-    price: "20000000",
-    year: 1994,
-    volume: 2.4,
-    color: 'FF0000',
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFN0lN7T1WyAETO84V2umxeofkkkl6684bmI01rC_I&s"
-  }
-]
-console.log(carsArray)
+
+
+
 
 
 
@@ -19,6 +18,14 @@ console.log(carsArray)
 
 <template>
 <ButtonDelete/>
+<CarList/>
+<Header/>
+<NavBar/>
+<Background/>
+<CarAddModal/>
+<CarTable/>
+<Footer/>
+
 </template>
 
 <style scoped></style>
