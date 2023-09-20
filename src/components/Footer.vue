@@ -18,10 +18,6 @@ const value = ref('');
         <div class="info">
             <ul class="contacts">
                 <li>Новые автомобили : +7 727 225 64 24</li>
-                <li>Автомобили с пробегом: +7 727 225 64 22</li>
-                <li>Сервис и запасные части: +7 727 225 64 24</li>
-                <li>Мобильный номер 8 702 075 06 40</li>
-                <li>Call Center *звонок бесплатный 8 800 080 64 24</li>
                 <li>info@mercedes-benz.com.kz</li>
             </ul>
             <div class="time">
